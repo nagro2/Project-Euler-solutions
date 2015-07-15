@@ -26,6 +26,8 @@ h2{
 #body1 {
 	border: 1px solid;
 	padding: 10px;
+	margin-left:40px;
+	margin-right:40px;
 }
 
 /*#body1 p {
