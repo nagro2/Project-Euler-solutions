@@ -20,11 +20,14 @@ background-color:#FFEBCD;
 h2{
 	font-family:Arial;
 	color: #614021;
+	margin-left:40px;
 }
 
 #body1 {
 	border: 1px solid;
 	padding: 10px;
+	margin-left:40px;
+	margin-right:40px;
 }
 
 /*#body1 p {
