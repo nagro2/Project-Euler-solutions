@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="problem1-stylesheet.css"/>
+	<title>Euler-Odin solution 1 by Nick Agro</title>
+</head>
+
+<body>
+
+  <h1><div id = "t1">Euler-Odin Project solutions</div> <div id = "t2">by Nick Agro</div></h1>
+  <h2>Problem 1: Finding the sum of all multiples of 3 or 5 below 1000</h2>
+
+  <div id = "body1">
+  <p>Assignment from the Euler Project page: " If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000."</p>
+ 
+  <h3>Solution:</h3>
+  <script id = "s1">
+	var runningtotal = 0;
+	for (var i = 3; i < 1000; i++){
+		/*document.write(i + "</br>");*/
+		if (i % 3 === 0 || i % 5 ===0){
+			/*document.write(i + "</br>");*/
+			runningtotal += i;
+			}
+		}
+	document.write("The sum of all multiples of 3 or 5 below 1000 is " + runningtotal + ".</br>");
+  </script>
+
+</div>
+</br>
+<p id = "posted_date">Posted on 7/15/2015</p>
+ 
+
+</body>
+</html>
